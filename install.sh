@@ -28,7 +28,7 @@ else
     echo "✓ probe-rs installed successfully"
 fi
 
-# give final instructions to run the project
+# Give final instructions to run the project
 echo "Command to run the project:"
 echo "cargo run"
 echo "cargo run --release"
