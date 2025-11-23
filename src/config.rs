@@ -66,6 +66,7 @@ pub fn init(p: Peripherals) -> (Output<'static>, impl WriteBlocking) {
     // Initialize UART2 TX (connected to ST-Link VCP on PA2)
     // Configuration: 115200 baud, 8 data bits, no parity, 1 stop bit (8N1)
     let uart_config = embassy_stm32::usart::Config::default();
+    
     // Create a blocking UART transmitter (no DMA) using the convenience constructor
     let usart = UartTx::new_blocking(p.USART2, p.PA2, uart_config).unwrap();
 
