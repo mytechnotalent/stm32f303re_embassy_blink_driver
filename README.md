@@ -1,6 +1,6 @@
 # stm32f303re-blink
 
-A minimal, production-minded example to blink an LED on an STM32F303RE using the Embassy async HAL and Cortex-M runtime.
+STM32F303RE blink driver in RUST.
 
 **Project**
 - **Name:** `stm32f303re-blink` (crate version `0.1.0`)
