@@ -82,17 +82,6 @@ Adjust the flash address (`0x08000000` or `0x8000000` depending on the tool) to 
 - Prefer reproducible tool versions (document changes to toolchain or `Cargo.toml`).
 - Add unit/integration tests where applicable and document new steps in this `README.md`.
 
-**Authors & Maintainers**
-- Project: `stm32f303re-blink`
-- Maintainer: add your name/contact here (e.g., `Kevin Thomas <you@example.com>`)
-
-**License**
-- This repository does not include a LICENSE file by default. It's recommended to pick a license (for example, MIT or Apache-2.0) and add a `LICENSE` file at the repository root.
-
----
-
-If you'd like, I can:
-- Add a `LICENSE` file (MIT/Apache-2.0),
 - Add a `.cargo/config.toml` with a `runner = "probe-run"` entry for `cargo run`, or
 - Add CI steps to build and verify the example on push.
 
