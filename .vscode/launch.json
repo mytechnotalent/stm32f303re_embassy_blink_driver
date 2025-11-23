@@ -1,0 +1,23 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Debug (OpenOCD)",
+            "type": "cortex-debug",
+            "request": "launch",
+            "servertype": "openocd",
+            "cwd": "${workspaceFolder}",
+            "executable": "${workspaceFolder}/target/thumbv7em-none-eabihf/debug/stm32f303re-blink",
+            "device": "STM32F303RE",
+            "configFiles": [
+                "interface/stlink.cfg",
+                "target/stm32f3x.cfg"
+            ],
+            "runToEntryPoint": "main",
+            "svdFile": "",
+            "preLaunchTask": "cargo: build (thumbv7em-none-eabihf)",
+            "gdbPath": "arm-none-eabi-gdb",
+            "showDevDebugOutput": "vscode"
+        }
+    ]
+}

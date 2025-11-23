@@ -1,0 +1,17 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "cargo: build (thumbv7em-none-eabihf)",
+            "type": "shell",
+            "command": "cargo build --target thumbv7em-none-eabihf",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": [
+                "$rustc"
+            ]
+        }
+    ]
+}
