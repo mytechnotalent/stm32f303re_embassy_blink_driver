@@ -1,0 +1,5 @@
+# Force GitHub linguist to classify this repository as Rust
+* linguist-language=Rust
+
+# Mark the target directory as vendored/generated so it doesn't affect language stats
+/target/** linguist-vendored

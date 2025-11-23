@@ -1,0 +1,27 @@
+# Ignore Rust build artifacts
+/target/
+**/*.rs.bk
+
+# Cargo
+/Cargo.lock
+
+# Generated binaries and artifacts
+*.bin
+*.elf
+*.hex
+*.dfu
+
+# Build directories
+/build/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+
+# macOS
+.DS_Store
+
+# Misc
+/.cargo/registry/
+/.cargo/git/
