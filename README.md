@@ -1,10 +1,10 @@
-![STM32F303RE Blink](https://raw.githubusercontent.com/mytechnotalent/stm32f303re_bare_metal_blink/main/STM32F303RE-Embassy-Blink-Driver.png)
+![STM32F303RE Embsassy Blink Driver](https://github.com/mytechnotalent/stm32f303re_embassy_blink_driver/blob/main/STM32F303RE-Embassy-Blink-Driver.png?raw=true)
 
 ## FREE Reverse Engineering Self-Study Course [HERE](https://github.com/mytechnotalent/Reverse-Engineering-Tutorial)
 
 <br>
 
-# STM32F303RE Blink Driver
+# STM32F303RE Embassy Blink Driver
 
 Async LED blink firmware for STM32F303RE Nucleo in Embedded Rust with Embassy; leverages STM32F303RE (ARM Cortex-M4F) for reliable GPIO control plus integrated UART output and robust capabilities.
 
