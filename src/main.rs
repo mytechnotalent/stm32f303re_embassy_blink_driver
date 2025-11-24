@@ -60,11 +60,11 @@ async fn main(_spawner: Spawner) {
         // Turn LED on and notify via UART
         let _ = usart.blocking_write(config::messages::LED_ON);
         led.set_high();
-        Timer::after_millis(config::LED_BLINK_INTERVAL_MS).await;
+        Timer::after_millis(500).await;
 
         // Turn LED off and notify via UART
         let _ = usart.blocking_write(config::messages::LED_OFF);
         led.set_low();
-        Timer::after_millis(config::LED_BLINK_INTERVAL_MS).await;
+        Timer::after_millis(500).await;
     }
 }

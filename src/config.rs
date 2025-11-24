@@ -32,12 +32,6 @@ impl WriteBlocking for UartTx<'static, Blocking> {
     }
 }
 
-/// LED blink interval in milliseconds
-///
-/// Controls the on/off period for the LED blink cycle.
-/// Default: 500ms (resulting in 1Hz blink rate)
-pub const LED_BLINK_INTERVAL_MS: u64 = 500;
-
 /// UART serial message definitions
 ///
 /// Pre-formatted messages sent over UART2 to the ST-Link virtual COM port.
